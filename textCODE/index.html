@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Concrete Poetry</title>
+  <!-- css -->
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <h1>Concrete Poetry</h1>
+
+  <h2>Generator</h2>
+
+  <div>
+    <!-- text input area -->
+    <!-- <p>Text:</p> -->
+    <textarea id="inputTextToShape" cols="80" rows="25"></textarea>
+    <br>
+    <!-- shape choosing buttons -->
+    <button id="click" onclick="chooseHeart()">Heart</button>
+    <button id="click" onclick="chooseMoon()">Moon</button>
+    <button id="click" onclick="chooseTeardrop()">Teardrop</button>
+
+  </div>
+  <!-- shapes -->
+
+  <!-- <div class='wrapper'> -->
+
+  <!-- HEART HEART HEART HEART HEART HEART -->
+  <!-- HEART HEART HEART HEART HEART HEART -->
+  <!-- HEART HEART HEART HEART HEART HEART -->
+
+  <div id="heartCSS">
+
+    <pre id="heart">
+            gggggggggggggg              gggggggggggggg
+         gggggggggggggggggggg         gggggggggggggggggg
+       gggggggggggggggggggggggg     gggggggggggggggggggggg
+     ggggggggggggggggggggggggggg   ggggggggggggggggggggggggg
+    ggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+    gggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+    gggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+    gggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+    gggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+    gggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+     gggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+      gggggggggggggggggggggggggggggggggggggggggggggggggggggg
+       gggggggggggggggggggggggggggggggggggggggggggggggggggg
+         ggggggggggggggggggggggggggggggggggggggggggggggggg
+          gggggggggggggggggggggggggggggggggggggggggggggg
+            gggggggggggggggggggggggggggggggggggggggggg
+               ggggggggggggggggggggggggggggggggggggg
+                  gggggggggggggggggggggggggggggg
+                     gggggggggggggggggggggggg
+                        gggggggggggggggggg
+                           gggggggggggg
+                             gggggggg
+                               ggggg
+                                ggg
+                                 g
+    </pre>
+    <!-- download -->
+    <button id="downloadHeart" onclick="downloadLinkHeart()"> Download Heart </button>
+  </div>
+
+  <!-- MOON MOON MOON MOON MOON MOON MOON -->
+  <!-- MOON MOON MOON MOON MOON MOON MOON -->
+  <!-- MOON MOON MOON MOON MOON MOON MOON -->
+
+  <div id="moonCSS">
+
+    <pre id="moon">
+      ggg
+         gggggg
+            gggggggggggg
+               gggggggggggggg
+                 gggggggggggggggggg
+                  gggggggggggggggggggggg
+                    gggggggggggggggggggggg
+                     gggggggggggggggggggggg
+                      ggggggggggggggggggggggg
+                       gggggggggggggggggggggggg
+                       ggggggggggggggggggggggg
+                      gggggggggggggggggggggg
+                    ggggggggggggggggggggg
+                  gggggggggggggggggggg
+                gggggggggggggggggg
+             gggggggggggggg
+          gggggggggggg
+        gggggg
+      ggg
+</pre>
+    <!-- download -->
+    <button id="downloadMoon" onclick="downloadLinkMoon()"> Download Moon </button>
+  </div>
+
+  <!-- TEAR TEAR TEAR TEAR TEAR TEAR TEAR -->
+  <!-- TEAR TEAR TEAR TEAR TEAR TEAR TEAR -->
+  <!-- TEAR TEAR TEAR TEAR TEAR TEAR TEAR -->
+
+  <div id="teardropCSS">
+
+    <pre id="teardrop">
+		                  <!-- g
+                     ggg
+		                gggggg
+                  gggggggggg
+                gggggggggggggg
+               gggggggggggggggg
+              gggggggggggggggggg
+             gggggggggggggggggggg
+            gggggggggggggggggggggg
+           gggggggggggggggggggggggg
+          gggggggggggggggggggggggggg
+         gggggggggggggggggggggggggggg
+         gggggggggggggggggggggggggggg
+          gggggggggggggggggggggggggg
+           gggggggggggggggggggggggg
+             ggggggggggggggggggggg
+               ggggggggggggggggg
+                 gggggggggggggg
+                    ggggggggg
+                      ggggg -->
+                      g
+                     ggg
+	            gggggg
+                  gggggggggg
+                gggggggggggggg
+               gggggggggggggggg
+              gggggggggggggggggg
+             gggggggggggggggggggg
+            gggggggggggggggggggggg
+           gggggggggggggggggggggggg
+          gggggggggggggggggggggggggg
+         gggggggggggggggggggggggggggg
+         gggggggggggggggggggggggggggg
+          gggggggggggggggggggggggggg
+           gggggggggggggggggggggggg
+             ggggggggggggggggggggg
+               ggggggggggggggggg
+                 gggggggggggggg
+                    ggggggggg
+                      ggggg
+    </pre>
+
+
+    <!-- download -->
+
+
+    <button id="downloadTeardrop" onclick="downloadLinkTeardrop()"> Download Teardrop </button>
+  </div>
+
+
+  <!-- </div> -->
+
+  <!-- Javascript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

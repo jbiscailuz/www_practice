@@ -1,0 +1,88 @@
+body {
+  max-width: 500px;
+    margin: auto;
+  height: auto;
+}
+
+#heart::selection {
+  background: rgb(148,17,0);
+  color: rgb(255,146,185);
+}
+
+#moon::selection {
+  background: rgb(148,17,0);
+  color: rgb(255,146,185);
+}
+
+#teardrop::selection {
+  background: rgb(148,17,0);
+  color: rgb(255,146,185);
+}
+
+.wrapper {
+  position: relative;
+
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  letter-spacing: 10px;
+  line-height: 1.1;
+      font-size: 100px;
+      margin-top: -5px;
+      margin-bottom: -10px;
+      color: rgb(255,146,185);
+      z-index: 2;
+}
+
+h2 {
+    margin: auto;
+    font-size: 150px;
+    z-index: 1;
+    position: relative;
+    margin-top: -202px;
+    margin-bottom: 60px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: rgb(148,17,0);
+}
+
+p {
+    font-family: 'Anton', sans-serif;
+  letter-spacing: 10px;
+  color: rgb(148,17,0);
+}
+
+#heartCSS {
+  position: absolute;
+  z-index: 1;
+}
+
+
+#moonCSS {
+  position: absolute;
+  z-index: 2;
+}
+
+#teardropCSS {
+  position: absolute;
+  z-index: 3;
+}
+
+button {
+  -webkit-border-radius: 29;
+ -moz-border-radius: 29;
+ border-radius: 29px;
+  color: rgb(255,146,185);
+  padding: 5px 10px 5px 10px;
+  border: solid #941100 1px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+button:hover {
+  background: #941100;
+  text-decoration: none;
+}
